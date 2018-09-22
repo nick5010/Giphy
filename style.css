@@ -1,0 +1,14 @@
+.btn {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.gif {
+    width: 20%;
+    margin: 10px;
+    }
+
+body {
+background-color: #aae5fa;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
