@@ -5,7 +5,7 @@ function displayAnimals() {
     var entry = $(this).attr('data-name');
     $('#animal').empty();
     //  GY5YeZqo1EopyOosWfh3fJocMzHpiSuy api key
-    queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + entry + '&api_key=GY5YeZqo1EopyOosWfh3fJocMzHpiSuy&limit=10&rating=pg'
+    queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + entry + '&api_key=GY5YeZqo1EopyOosWfh3fJocMzHpiSuy&limit=10&rating=pg'
     console.log(entry)
     $.ajax({
         url: queryURL,
